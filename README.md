@@ -1,6 +1,6 @@
 # schoolProject
 <p>Jedná se o projekt v rámci předmětu PRJ na škole OAUH</p>
-Autoři: Jan Javor
-        Pavel Řihák
-        Ctibor Mlýnek
-Popis zadání:
+<p>Autoři: Jan Javor</p>
+<p>        Pavel Řihák</p>
+<p>        Ctibor Mlýnek</p>
+<p>Popis zadání:</p>
