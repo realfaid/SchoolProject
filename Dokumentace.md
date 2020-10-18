@@ -24,8 +24,8 @@ Co nám aplikace přinese:
  3. Pokud by vše fungovalo úspěšně, může nám to přinést nějaký ten peníz
  
 Autoři aplikace:
-    Řihák Pavel
-    Javor jan 
+    Řihák Pavel,
+    Javor jan,
     Mlýnek Ctibor
  
 
