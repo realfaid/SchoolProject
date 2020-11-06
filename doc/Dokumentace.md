@@ -25,7 +25,7 @@ Co nám aplikace přinese:
  
 Autoři aplikace:
     Řihák Pavel,
-    Javor jan,
+    Javor Jan,
     Mlýnek Ctibor
  
 
