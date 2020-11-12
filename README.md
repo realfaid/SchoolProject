@@ -5,3 +5,4 @@
 <p><b>Popis zadání:</b> <a href="https://github.com/realfaid/SchoolProject/blob/main/doc/Dokumentace.md">Zde</a></p>
 <p><b>Diagram projektu:</b> <a href="https://github.com/realfaid/SchoolProject/blob/main/doc/Daigram.jpeg">Zde</a></p>
 <p><b>Týdenní plán:</b> <a href="https://github.com/realfaid/SchoolProject/blob/main/plan.md">Zde</a></p>
+<p><b>Wireframe:</b> <a href="https://github.com/realfaid/SchoolProject/blob/main/doc/wireframe.md">Zde</a></p>
