@@ -23,6 +23,8 @@ Co nám aplikace přinese:
  2. Naučíme se dělat více v programu Arduino a Android studio
  3. Pokud by vše fungovalo úspěšně, může nám to přinést nějaký ten peníz
  
+Inspirace: https://www.youtube.com/watch?v=g4CEtVZaXVg&ab_channel=SvendDiesel
+
 Autoři aplikace:
     Řihák Pavel,
     Javor Jan,
