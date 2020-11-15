@@ -13,6 +13,10 @@
 Co nám aplikace přinese:
 
 
+Návod:
+
+
+
 Odkaz na knihovnu v Arduinu: https://github.com/adafruit/Adafruit_NeoPixel
 
 
