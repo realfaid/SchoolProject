@@ -1,27 +1,17 @@
-# Projekt Programování Dokumentace
+# Dokumentace projektu SwitchLiights
 
-Vytvoříme aplikaci pro blikání s LED Diodama
+ Vytvoříme aplikaci pro blikání s LED Diodama
 
-Budeme potřebovat:
- 1. ESP 8266
- 2. Led Diody
- 3. Program v Arduinu
- 4. Aplikaci na mobil v Android studiu
- 
+ Na projekt budeme potřebovat ESP 8266, Led diody, program arduino a android studio na vytvoření mobilní aplikace.
 
-Co aplikace bude umět:
- 1. Budete si moc naskenovat na diodách různé barvy.
-2. Budou zde již předchystané barvy, které budete moc použít.
+ V aplikaci si budete moci nastavit pro diody různé barvy, které zde budou již predchystané na výběr, a také si můžete změnit režim svícení diod, bude zde předchystané blikání, s rozdílnou intenzitou, a svícení.
+
+ Princip aplikace bude takový, že do aplikace zadáte IP adresu zařízení ESP 8266, tu kterou mu přídělí síť, na kterou bude ESP 8266 připojeno. Každé tlačítko bude mít funkci, která na IP adresu, co zadáme v nastavení, bude posílat název funkce v Arduinu, která se má provést.
 
 
-Princip aplikace:
- 1. Aplikace bude připojena na ESP 8266, pomocí WIFI, která je umístěná na ESP 8266.
- 2. Pomocí WIFI si budete moc ukládat různé barvy, které chcete momentálně.
- 
+ Díky aplikaci se naučíme základy a vývoj aplikace v prostředí Android studia, zopakujeme si a přiučíme v programu Arduino, a pokud by aplikace měla úspěch a vše by fungovalo úspěšně, zjistili bychom jak to následně funguje s reklamou aplikace, nahráváním aplikace do storu a celkově se seznámili s trhem aplikací.
 Co nám aplikace přinese:
- 1. Naučíme se dělat mobilní aplikaci
- 2. Naučíme se dělat více v programu Arduino a Android studio
- 3. Pokud by vše fungovalo úspěšně, může nám to přinést nějaký ten peníz
+
  
 Inspirace: https://www.youtube.com/watch?v=g4CEtVZaXVg&ab_channel=SvendDiesel
 
