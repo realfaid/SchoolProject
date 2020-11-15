@@ -13,7 +13,7 @@
 Co nám aplikace přinese:
 
 
-Odkaz na knihovnu: https://github.com/adafruit/Adafruit_NeoPixel
+Odkaz na knihovnu v Arduinu: https://github.com/adafruit/Adafruit_NeoPixel
 
 
 Inspirace: https://www.youtube.com/watch?v=g4CEtVZaXVg&ab_channel=SvendDiesel
