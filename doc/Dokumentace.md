@@ -20,6 +20,7 @@ Inspirace: https://www.youtube.com/watch?v=g4CEtVZaXVg&ab_channel=SvendDiesel
 
 
 Použitý materiál: 
+
 https://www.youtube.com/watch?v=fis26HvvDII&list=WL&index=27&t=2409s&ab_channel=freeCodeCamp.or
 https://www.youtube.com/channel/UCwDwNIcAXmpqiqYlKJ7SMrw/videos // tutoriál na propojení Arduina s Android studiem
 
