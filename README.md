@@ -1,4 +1,4 @@
-# SchoolProject
+# SwitchLiights
 <p>Jedná se o projekt v rámci předmětu PRJ na škole OAUH.</p>
 <p><b>Autoři:</b> Jan Javor, Pavel Řihák, Ctibor Mlýnek</p>
 <p><b>Stručně o zadání:</b> Vytvořit mobilní aplikaci, pomocí Android studia, která bude blikat LED Diodama, které jsou naprogramované v Arduinu</p>
