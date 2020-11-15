@@ -17,7 +17,7 @@ Inspirace: https://www.youtube.com/watch?v=g4CEtVZaXVg&ab_channel=SvendDiesel
 
 
 Použitý materiál: https://www.youtube.com/watch?v=fis26HvvDII&list=WL&index=27&t=2409s&ab_channel=freeCodeCamp.org
-                  https://www.youtube.com/watch?v=UF9nmIe2zdg&list=WL&index=28&ab_channel=ParthaoLad // tutoriál na propojení Arduina s Android studiem
+               https://www.youtube.com/channel/UCwDwNIcAXmpqiqYlKJ7SMrw/videos // tutoriál na propojení Arduina s Android studiem
 
 Autoři aplikace:
     Řihák Pavel,
