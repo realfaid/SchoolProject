@@ -13,6 +13,9 @@
 Co nám aplikace přinese:
 
 
+Druhé pololetí: Zlepšit celkový vzhled aplikace, přidat jiné barvy a efekty, z lehčit kód.
+
+
 Odkaz na knihovnu v Arduinu: https://github.com/adafruit/Adafruit_NeoPixel
 
 
