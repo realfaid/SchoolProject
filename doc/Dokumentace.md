@@ -1,4 +1,4 @@
-# Dokumentace projektu SwitchLiights
+cccccccccccc# Dokumentace projektu SwitchLiights
 
  Vytvoříme aplikaci pro blikání s LED Diodama pomocí tutoriálu s přidáním vlastních funkcí a layoutu.
 
@@ -13,7 +13,7 @@
 Co nám aplikace přinese:
 
 
-Druhé pololetí: Zlepšit celkový vzhled aplikace, přidat jiné barvy a efekty, z lehčit kód.
+Druhé pololetí: Zlepšit celkový vzhled aplikace, vybírání barev pomocí color pickeru.
 
 
 Odkaz na knihovnu v Arduinu: https://github.com/adafruit/Adafruit_NeoPixel
