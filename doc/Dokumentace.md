@@ -20,7 +20,10 @@ Odkaz na knihovnu v Arduinu: https://github.com/adafruit/Adafruit_NeoPixel
 
 
 Inspirace: https://www.youtube.com/watch?v=g4CEtVZaXVg&ab_channel=SvendDiesel
+
+
 Postopujeme podle tutoriálu na tomhle kanálu: https://www.youtube.com/channel/UCwDwNIcAXmpqiqYlKJ7SMrw/videos
+
 
 Použitý materiál: 
 
