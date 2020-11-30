@@ -1,6 +1,6 @@
 # Dokumentace projektu SwitchLiights
 
- Vytvoříme aplikaci pro blikání s LED Diodama pomocí tutoriálu s přidáním vlastních funkcí a a layoutu.
+ Vytvoříme aplikaci pro blikání s LED Diodama pomocí tutoriálu s přidáním vlastních funkcí a layoutu.
 
  Na projekt budeme potřebovat ESP 8266, Led diody, program arduino a android studio na vytvoření mobilní aplikace.
 
