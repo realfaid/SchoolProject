@@ -13,7 +13,7 @@ cccccccccccc# Dokumentace projektu SwitchLiights
 Co nám aplikace přinese:
 
 
-Druhé pololetí: Zlepšit celkový vzhled aplikace, vybírání barev pomocí color pickeru.
+Druhé pololetí: Zlepšit celkový vzhled aplikace, vybírání barev pomocí color pickeru, režim, který bude blikat do rytmu hudby.
 
 
 Odkaz na knihovnu v Arduinu: https://github.com/adafruit/Adafruit_NeoPixel
