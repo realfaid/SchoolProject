@@ -1,4 +1,4 @@
-cccccccccccc# Dokumentace projektu SwitchLiights
+# Dokumentace projektu SwitchLiights
 
  Vytvoříme aplikaci pro blikání s LED Diodama pomocí tutoriálu s přidáním vlastních funkcí a layoutu.
 
