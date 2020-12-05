@@ -1,9 +1,0 @@
-<resources>
-    <string name="app_name">SwitchLiights</string>
-    <string name="nastaveni">Nastavení</string>
-    <string name="pomoc">Pomoc</string>
-    <string name="rezimy">Režimy</string>
-    <string name="informace">Informace</string>
-
-
-</resources>
