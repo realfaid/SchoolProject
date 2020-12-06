@@ -10,7 +10,6 @@
 
 
  Díky aplikaci se naučíme základy a vývoj aplikace v prostředí Android studia, zopakujeme si a přiučíme v programu Arduino, a pokud by aplikace měla úspěch a vše by fungovalo úspěšně, zjistili bychom jak to následně funguje s reklamou aplikace, nahráváním aplikace do storu a celkově se seznámili s trhem aplikací.
-Co nám aplikace přinese:
 
 
 Druhé pololetí: Zlepšit celkový vzhled aplikace, vybírání barev pomocí color pickeru, režim, který bude blikat do rytmu hudby.
