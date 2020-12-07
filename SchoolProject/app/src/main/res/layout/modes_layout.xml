@@ -13,14 +13,14 @@
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:background="@color/colorRed"
+        android:onClick="btnRedClicked"
+
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.161"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.406"
-        android:onClick="btnRedClicked"
-/>
+        app:layout_constraintVertical_bias="0.406" />
 
 
     <Button
@@ -46,6 +46,7 @@
     // android:layout_marginEnd="50dp"
     // android:layout_marginBottom="425dp"
     // android:text="On"
+
     // app:layout_constraintBottom_toBottomOf="parent"
     // app:layout_constraintEnd_toStartOf="@+id/btnOff"
     // app:layout_constraintStart_toStartOf="parent"
@@ -55,11 +56,12 @@
 
     <Button
         android:id="@+id/btnOff"
-        android:layout_width="90dp"
-        android:layout_height="70dp"
+        android:layout_width="123dp"
+        android:layout_height="45dp"
+        android:background="@drawable/btn_background"
         android:onClick="btnOffClicked"
         android:text="Vypnout"
-
+        android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.785"
@@ -113,26 +115,28 @@
 
     <Button
         android:id="@+id/btnStill"
-        android:layout_width="120dp"
-        android:layout_height="50dp"
+        android:layout_width="123dp"
+        android:layout_height="45dp"
+        android:background="@drawable/btn_background"
         android:onClick="btnStillClicked"
         android:text="Svícení"
+        android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.175"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.099"
 
-
-        />
+        app:layout_constraintVertical_bias="0.099" />
 
     <Button
         android:id="@+id/btnFlash"
-        android:layout_width="120dp"
-        android:layout_height="50dp"
+        android:layout_width="123dp"
+        android:layout_height="45dp"
+        android:background="@drawable/btn_background"
         android:onClick="btnFlashClicked"
         android:text="Blikání"
+        android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.175"
