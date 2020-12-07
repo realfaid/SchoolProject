@@ -15,7 +15,7 @@ import java.io.IOException;
 
 public class SettingsActivity extends AppCompatActivity {
    // private EditText ipxx1; - uložení pouze do řádku
-    private static final String FILE_NAME = "example.txt";
+    private static final String FILE_NAME = "ipadress.txt";
     EditText mEditText;
 
     @Override
