@@ -6,6 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".LedActivity"
+    android:background="@drawable/background"
     >
 
     <Button
@@ -161,18 +162,16 @@
         android:id="@+id/colorActive"
         android:layout_width="120dp"
         android:layout_height="120dp"
+        android:background="@color/colorWhite"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.824"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.499"
-        app:srcCompat="@drawable/color"
 
 
-
-
-        />
+        app:srcCompat="@drawable/color" />
 
     <Button
         android:id="@+id/btnAzur"
