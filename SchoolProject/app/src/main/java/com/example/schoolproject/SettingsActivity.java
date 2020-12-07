@@ -37,7 +37,7 @@ public class SettingsActivity extends AppCompatActivity {
         try {
             fos = openFileOutput(FILE_NAME, MODE_PRIVATE);
             fos.write(text.getBytes());
-            Toast.makeText(this, "Saved to " + getFilesDir() + "/" + FILE_NAME, Toast.LENGTH_LONG).show();
+            Toast.makeText(this, "Uloženo do " + getFilesDir() + "/" + FILE_NAME, Toast.LENGTH_LONG).show();
         }
         catch (FileNotFoundException e) {
             e.printStackTrace();
