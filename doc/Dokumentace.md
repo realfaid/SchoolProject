@@ -9,10 +9,10 @@
  Princip aplikace bude takový, že do aplikace zadáte IP adresu zařízení ESP 8266, tu kterou mu přídělí síť, na kterou bude ESP 8266 připojeno. Každé tlačítko bude mít funkci, která na IP adresu, co zadáme v nastavení, bude posílat název funkce v Arduinu, která se má provést.
 
 
- Díky aplikaci se naučíme základy a vývoj aplikace v prostředí Android studia, zopakujeme si a přiučíme v programu Arduino, a pokud by aplikace měla úspěch a vše by fungovalo úspěšně, zjistili bychom jak to následně funguje s reklamou aplikace, nahráváním aplikace do storu a celkově se seznámili s trhem aplikací.
+ Díky aplikaci se naučíme základy a vývoj aplikace v prostředí Android studia, zopakujeme si a přiučíme v programu Arduino, a pokud by aplikace měla úspěch a vše by fungovalo úspěšně. Zjistili bychom si, jak to následně funguje s reklamou aplikace, nahráváním aplikace do storu a celkově se seznámili s trhem aplikací.
 
 
-Druhé pololetí: Zlepšit celkový vzhled aplikace, vybírání barev pomocí color pickeru, režim, který bude blikat do rytmu hudby, připojení ESP přes Bluetooth.
+Druhé pololetí: Zlepšit celkový vzhled aplikace, vybírání barev pomocí color pickeru, režim, který bude blikat do rytmu hudby, připojení ESP přes Bluetooth, zvyšování jasu, frekvence blikání, .
 
 
 Odkaz na knihovnu v Arduinu: https://github.com/adafruit/Adafruit_NeoPixel
