@@ -25,7 +25,7 @@ Použitý materiál:
 
 https://www.youtube.com/watch?v=fis26HvvDII&list=WL&index=27&t=2409s&ab_channel=freeCodeCamp.or
 https://publi.cz/books/275/Impresum.html?fbclid=IwAR06fJRh-wMkFjGkiXO8h7tF3iOMWl5hUZ6Ey4ePEwurJjAnPW2BG_vWOdM
-https://www.youtube.com/channel/UCwDwNIcAXmpqiqYlKJ7SMrw/videos tutoriál video
+https://www.youtube.com/channel/UCwDwNIcAXmpqiqYlKJ7SMrw/videos YouTube Kanál, kde jsou tutoriálové videa pomocí, kterého jsme postupovali.
 
 Autoři aplikace:
     Řihák Pavel,
