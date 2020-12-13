@@ -1,0 +1,28 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\Honza\\Desktop\\SwitchLiights\\SchoolProject\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v29\\values-v29.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Honza\\Desktop\\SwitchLiights\\SchoolProject\\app\\src\\main\\res\\values-v29\\styles.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "59",
+                        "endLines": "10",
+                        "endColumns": "12",
+                        "endOffsets": "440"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "9",
+                        "endColumns": "12",
+                        "endOffsets": "429"
+                    }
+                }
+            ]
+        }
+    ]
+}
