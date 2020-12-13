@@ -2,7 +2,11 @@
 
  Vytvoříme aplikaci pro blikání s LED Diodama pomocí tutoriálu s přidáním vlastních funkcí a layoutu.
 
- Na projekt budeme potřebovat ESP 8266, Led diody, program arduino a android studio na vytvoření mobilní aplikace a ještě potřebujete mobilní telefon se systémem Android.
+ Na projekt budeme potřebovat ESP 8266, Led diody, program arduino a android studio na vytvoření mobilní aplikace.
+
+
+Jako uživatel budete potřebovat připojení k internetu v rámci domací sítě, mobilní telefon s operačním systémem Android a ESP 8266 s uloženou konfigurací.
+
 
  V aplikaci si budete moci nastavit pro diody různé barvy, které zde budou již predchystané na výběr, a také si můžete změnit režim svícení diod, bude zde předchystané blikání, s rozdílnou intenzitou, a svícení.
 
