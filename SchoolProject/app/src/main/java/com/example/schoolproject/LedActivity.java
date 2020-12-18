@@ -46,7 +46,8 @@ public class LedActivity extends AppCompatActivity {
             StringBuilder sb = new StringBuilder();
             String text;
             while ((text = br.readLine()) != null) {
-                sb.append(text).append("\n");
+                sb.append(text);
+
             }
             Settings.setIpAddressOfEsp(sb.toString());
         } catch (FileNotFoundException e) {
