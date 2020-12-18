@@ -15,10 +15,16 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageView;
 
+import java.io.BufferedReader;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
 
 public class LedActivity extends AppCompatActivity {
 
-
+    private static final String FILE_NAME = "ipadress.txt";
 
     @Override
 
@@ -30,6 +36,32 @@ public class LedActivity extends AppCompatActivity {
         AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);
 
 
+    }
+    public void load(View v) {
+        FileInputStream fis = null;
+        try {
+            fis = openFileInput(FILE_NAME);
+            InputStreamReader isr = new InputStreamReader(fis);
+            BufferedReader br = new BufferedReader(isr);
+            StringBuilder sb = new StringBuilder();
+            String text;
+            while ((text = br.readLine()) != null) {
+                sb.append(text).append("\n");
+            }
+            Settings.setIpAddressOfEsp(sb.toString());
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        } finally {
+            if (fis != null) {
+                try {
+                    fis.close();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
+        }
     }
 
 
@@ -66,6 +98,7 @@ public class LedActivity extends AppCompatActivity {
 
 
     public void btnRedClicked(View view){
+        load(null);
         Drawable red = getResources().getDrawable(R.drawable.color);
         red.setColorFilter(getResources().getColor(R.color.colorRed), PorterDuff.Mode.SRC_IN);
         ImageView colorActive = findViewById(R.id.colorActive);
@@ -75,6 +108,7 @@ public class LedActivity extends AppCompatActivity {
     }
 
     public void btnBlueClicked (View view) {
+        load(null);
         Drawable red = getResources().getDrawable(R.drawable.color);
         red.setColorFilter(getResources().getColor(R.color.colorBlue), PorterDuff.Mode.SRC_IN);
         ImageView colorActive = findViewById(R.id.colorActive);
@@ -84,6 +118,7 @@ public class LedActivity extends AppCompatActivity {
 
     }
     public void btnGreenClicked (View view) {
+        load(null);
         Drawable red = getResources().getDrawable(R.drawable.color);
         red.setColorFilter(getResources().getColor(R.color.colorGreen), PorterDuff.Mode.SRC_IN);
         ImageView colorActive = findViewById(R.id.colorActive);
@@ -92,6 +127,7 @@ public class LedActivity extends AppCompatActivity {
         process1.execute();
     }
     public void btnAzurClicked (View view) {
+        load(null);
         Drawable red = getResources().getDrawable(R.drawable.color);
         red.setColorFilter(getResources().getColor(R.color.colorAzur), PorterDuff.Mode.SRC_IN);
         ImageView colorActive = findViewById(R.id.colorActive);
@@ -101,6 +137,7 @@ public class LedActivity extends AppCompatActivity {
 
     }
     public void btnYellowClicked (View view) {
+        load(null);
         Drawable red = getResources().getDrawable(R.drawable.color);
         red.setColorFilter(getResources().getColor(R.color.colorYellow), PorterDuff.Mode.SRC_IN);
         ImageView colorActive = findViewById(R.id.colorActive);
@@ -110,6 +147,7 @@ public class LedActivity extends AppCompatActivity {
 
     }
     public void btnPurpleClicked (View view) {
+        load(null);
         Drawable red = getResources().getDrawable(R.drawable.color);
         red.setColorFilter(getResources().getColor(R.color.colorPurple), PorterDuff.Mode.SRC_IN);
         ImageView colorActive = findViewById(R.id.colorActive);
@@ -118,6 +156,7 @@ public class LedActivity extends AppCompatActivity {
         process1.execute();
     }
     public void btnWhiteClicked (View view) {
+        load(null);
         Drawable red = getResources().getDrawable(R.drawable.color);
         red.setColorFilter(getResources().getColor(R.color.colorWhite), PorterDuff.Mode.SRC_IN);
         ImageView colorActive = findViewById(R.id.colorActive);
@@ -128,14 +167,17 @@ public class LedActivity extends AppCompatActivity {
     }
 
     public void btnStillClicked(View view){
+        load(null);
         CommandToSend process1 = new CommandToSend("led1on");
         process1.execute();
     }
     public void btnFlashClicked(View view){
+        load(null);
         CommandToSend process1 = new CommandToSend("led1flash");
         process1.execute();
     }
     public void btnOffClicked(View view){
+        load(null);
         CommandToSend process1 = new CommandToSend("led1off");
         process1.execute();
 
