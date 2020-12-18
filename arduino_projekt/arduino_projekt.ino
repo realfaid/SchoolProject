@@ -49,13 +49,13 @@ void LEDcervena()
   server.send(200, "text/html", ledcervena);
 }
 
-void LEDmodra()
+void LEDzelena()
 {
   barva = 2;
   server.send(200, "text/html", ledmodra);
 }
 
-void LEDzelena()
+void LEDmodra()
 {
   barva = 3;
   server.send(200, "text/html", ledzelena);
