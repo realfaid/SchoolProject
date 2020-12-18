@@ -37,7 +37,7 @@ public class SettingsActivity extends AppCompatActivity {
     }
     public void btnSaveClicked(View view)
     {
-        //Settings.setIpAddressOfEsp(ipxx1.getText().toString()); - uložení pouze do řádku
+        //Settings.setIpAddressOfEsp(ipxx1.getText().toString()); - uložení pouze do řádku vyřešeno už načítáním
         String text = mEditText.getText().toString();
         FileOutputStream fos = null;
 
