@@ -1,0 +1,22 @@
+Nastavení aplikace:
+1. rozklikneme menu v horním rohu
+2. v nabídce vybereme "Nastavení"
+3. do øádku napíšeme IP adresu, kterou jsme si zjistili v Arduinu ( viz Dokumentace projektu --> POSTUP INSTALACE + NASTAVENÍ)
+4. klikneme na talèítko "Uložit". 
+Nyní je IP zaøízení uložené, není tedy potøeba vždy zadávat pøi spuštìní aplikace! 
+
+ 
+Jak aplikaci ovládat:
+ - pomocí tlaèítka "..." v pravém horním rohu rozklikneme menu pomocí kterého se dostaneme na jednotlivé stránky
+ 
+1. Režimy:
+- Jedná se o úvodní stránku. V horní lištì najdeme napovìdu a menu.
+- Zde si mùžeme vybrat, jestli svìtýlka budou blikat nebo svítit.
+- Pomocí tlaèítka "vypnout" daný režim vypneme.
+- Dále najdeme øežim pøednastavených barev a zobrazení aktuální barvy. Po kliknutí na barvu se svìtýlka rozsvítí vybranou barvou 
+
+2. Nastavení:
+- Zde nastavujeme IP zaøízení viz. Nastavení aplikace.
+
+3. Informace
+- Zde jsou informace o Aplikaci 
