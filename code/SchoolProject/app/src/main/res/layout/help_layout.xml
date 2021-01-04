@@ -9,19 +9,40 @@
 
     <TextView
         android:id="@+id/helpText"
-        android:layout_width="300dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
+        android:layout_width="345dp"
+        android:layout_height="628dp"
+        android:layout_marginStart="30dp"
         android:layout_marginTop="30dp"
+        android:layout_marginEnd="30dp"
         android:singleLine="false"
-        android:text="Aplikace se pouziva timtofadfadsfad stylemdafaf \nzaprve si nastavte blabla \npotom si bla bla \natd \natd \natd"
-        android:textSize="18dp"
+        android:text="Nastavení aplikace:
+ \n1. rozklikneme menu v horním rohu
+ \n2. v nabídce vybereme Nastavení
+ \n3. do řádku napíšeme IP adresu, kterou jsme si zjistili v Arduinu ( viz Dokumentace projektu --> POSTUP INSTALACE + NASTAVENÍ)
+ \n4. klikneme na talčítko Uložit.
+ \nNyní je IP zařízení uložené, není tedy potřeba vždy zadávat při spuštění aplikace!
+ \n
+
+ \nJak aplikaci ovládat:
+ \n - pomocí tlačítka - ... (tří teček), v pravém horním rohu rozklikneme menu pomocí kterého se dostaneme na jednotlivé stránky
+    \n
+    \n1. Režimy:
+
+    \n  - Zde si můžeme vybrat, jestli světýlka budou blikat nebo svítit.
+    \n  - Pomocí tlačítka vypnout daný režim vypneme.
+    \n  - Dále najdeme řežim přednastavených barev a zobrazení aktuální barvy. Po kliknutí na barvu se světýlka rozsvítí vybranou barvou
+    \n
+    \n2. Nastavení:
+    \n  - Zde nastavujeme IP zařízení viz. Nastavení aplikace.
+    \n
+    \n3. Informace
+    \n  - Zde jsou informace o Aplikaci"
+        android:textSize="15dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.338"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.02" />
+        app:layout_constraintVertical_bias="0.52" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

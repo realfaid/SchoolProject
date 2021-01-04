@@ -13,9 +13,12 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import java.io.BufferedReader;
+import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.io.InputStreamReader;
 
 
 public class SettingsActivity extends AppCompatActivity {
@@ -34,7 +37,7 @@ public class SettingsActivity extends AppCompatActivity {
     }
     public void btnSaveClicked(View view)
     {
-        //Settings.setIpAddressOfEsp(ipxx1.getText().toString()); - uložení pouze do řádku
+        //Settings.setIpAddressOfEsp(ipxx1.getText().toString()); - uložení pouze do řádku vyřešeno už načítáním
         String text = mEditText.getText().toString();
         FileOutputStream fos = null;
 
@@ -53,16 +56,19 @@ public class SettingsActivity extends AppCompatActivity {
         finally {
             if (fos != null) {
                 try {
-                    fos.close();
+                      fos.close();
                 } catch (IOException e) {
                     e.printStackTrace();
                 }
             }
         }
+
         Intent ht1 = new Intent(SettingsActivity.this, LedActivity.class);
         startActivity(ht1);
 
     }
+
+
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater inflater = getMenuInflater();
         inflater.inflate(R.menu.main_menu, menu);
