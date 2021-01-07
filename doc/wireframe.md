@@ -6,10 +6,10 @@
 - Pomocí tlačítka "vypnout" daný režim vypneme.
 - Dále najdeme řežim přednastavených barev a zobrazení aktuální barvy. Po kliknutí na barvu se světýlka rozsvítí vybranou barvou 
 
-2. strana Nápověda
+2. strana Nápověda:
 - Zde je popsáno jak aplikaci ovládat a nastavit
 
-2. strana Informace
+2. strana Informace:
 - Zde jsou informace o Aplikaci 
 
 4. strana Nastavení:
