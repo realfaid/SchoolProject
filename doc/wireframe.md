@@ -13,4 +13,4 @@
 - Zde jsou informace o Aplikaci 
 
 4. strana Nastavení:
-- Zde nastavujeme IP zařízení viz. Nastavení aplikace.
+- Zde nastavujeme IP zařízení
