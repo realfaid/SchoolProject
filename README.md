@@ -7,4 +7,4 @@
 <p><b>use-case Diagram:</b> <a href="https://github.com/realfaid/SchoolProject/blob/main/doc/Diagram.jpeg">Zde</a></p>
 <p><b>class Diagram:</b> <a href="https://github.com/realfaid/SwitchLiights/blob/main/doc/class%20UML.png">Zde</a></p>
 <p><b>Týdenní plán:</b> <a href="https://github.com/realfaid/SchoolProject/blob/main/plan.md">Zde</a></p>
-<p><b>Wireframe:</b> <a href="https://github.com/realfaid/SwitchLiights/blob/main/doc/wireframe.jpg">Zde</a></p>
+<p><b>Wireframe:</b> <a href="https://github.com/realfaid/SwitchLiights/blob/main/doc/wireframe.md">Zde</a></p>
